@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+}
+
+body{
+    background: url("/SMS/static/images/sms_bg.png") repeat-x;
+}
+
+body>img{
+    margin: 10px 0 10px 10px;
+}
+
+.wrap{
+    background: url("/SMS/static/images/sms_read_bg.png") repeat-x;
+}
+
+.top{
+    padding: 10px;
+    border-top: 2px solid white;
+}
+
+.top>label{
+    margin-left: 10px;
+}
+
+.line{
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.content{
+    width: 800px;
+    height: 300px;
+    border: 1px solid deepskyblue;
+    background: transparent;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.font{
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    background-color: #9ECAEB;
+    line-height: 35px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "华文彩云";
+    text-decoration: none;
+}

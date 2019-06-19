@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+}
+
+body{
+    background: url("/SMS/static/images/sms_home_bg.png");
+}
+
+a{
+    cursor: pointer;
+}
+
+.top{
+    margin: 65px 0 0 60px;
+}
+
+.middle{
+    float: right;
+    margin: 15px 200px 50px 0;
+}
+
+.footer{
+    clear: both;
+    width: 1000px;
+    margin: auto;
+}
+
+.font{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+li{
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted white;
+}
+
+.pos{
+    float: right;
+    margin-right: 90px;
+    padding-top: 5px;
+}
+
+.pos span{
+    margin-right: 10px;
+}
+
+.footer img{
+    margin: 0 10px -4px 0;
+}

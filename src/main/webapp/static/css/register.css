@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body{
+    background: url("/SMS/static/images/sms_bg.png") repeat-x;
+}
+
+.register_warp .top{
+    width: 200px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.register_warp .content{
+    background: url("/SMS/static/images/sms_reg_bg.png") center no-repeat;
+    height: 430px;
+    overflow: hidden;
+}
+
+.content form{
+    width: 215px;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.content label{
+    display: inline-block;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.content div{
+    margin-bottom: 25px;
+}
+
+.content .register{
+    background: url("/SMS/static/images/sms_btn_reg.png");
+}
+
+.submit_btn{
+    margin-top: 30px;
+    text-align: left;
+}
+
+.submit_btn button{
+    float: right;
+    width: 87px;
+    height: 39px;
+    border: 0;
+    background: url("/SMS/static/images/sms_btn_reset.png");
+}
+
+#username,#password,#email,#rel_password,#account{
+    float: right;
+    width: 145px;
+    height: 25px;
+    border: 0;
+    background: url("/SMS/static/images/sms_input_bg.gif");
+    background-size: 145px 25px;
+}
